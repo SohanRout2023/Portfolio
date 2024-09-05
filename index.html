@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohan Kumar Rout | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sohan Kumar Rout</h1>
+            <p>Front-End Developer | 3D Web Developer | Software Enthusiast</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="animated-text">
+            <p>
+                <span>I am Sohan Kumar Rout,</span>
+                <span>a passionate developer with experience in front-end development,</span>
+                <span>AR/VR, and software development.</span>
+                <span>I love exploring new technologies, especially in 3D web development and interactive user interfaces.</span>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+            <a href="https://github.com/SohanRout2023/Invoice-Web-app">Invoice Web-App</a>
+                <p>A ReactJS web app that allows users to create, view, and download invoices as PDFs, reducing invoice creation time by 60%.</p>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/SohanRout2023/Virtual-Universe">Virtual Universe</a>
+                <p>Developed a 3D environment with interactive camera and rotating objects using Three.js and WebGL, optimizing performance by 30%.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>ReactJS</li>
+                <li>Three.js</li>
+                <li>JavaScript</li>
+                <li>Firebase</li>
+                <li>Java</li>
+                <li>HTML/CSS</li>
+                <li>AWS</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="/send" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit" class="button-animated">Send Message</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sohan Kumar Rout. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
